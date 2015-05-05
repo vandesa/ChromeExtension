@@ -1,0 +1,20 @@
+{
+  "name": "15 To 18",
+  "description": "SFDC 15 digit ID convert to 18 digit ID",  
+  "version": "0.1",
+  "manifest_version": 2,
+  
+  
+  "browser_action": {
+    "default_icon": "image/icon.png",
+    "default_popup": "Main.html"
+  },
+  "permissions": [
+    "activeTab"
+  ] ,
+
+  "background": {
+    "scripts": ["Background.js"],
+    "persistent": false
+  }  
+}
